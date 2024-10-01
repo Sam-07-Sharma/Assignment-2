@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="recipe-card">
+        <h1 class="recipe-title">Chocolate Cake</h1>
+        <img src="cake.jpg" alt="Chocolate Cake" class="recipe-image">
+        <div class="info">
+            <div class="prep-time">Preparation Time: 30 mins</div>
+            <div class="servings">Servings: 8</div>
+        </div>
+        <button id="toggle-ingredients">Show Ingredients</button>
+        <ul class="ingredients">
+            <li>1 and 3/4 cup Sugar</li>
+            <li>1 cup Butter</li>
+            <li>3 Eggs</li>
+            <li>2 and 1/4 cup Flour</li>
+            <li>1 cup Cocoa powder</li>
+            <li>2 tsp Baking powder</li>
+            <li>1 tsp Vanilla extract</li>
+            <li>1 cup Milk</li>
+            <li>1/4 cup Melted Chocolate</li>
+        </ul>
+        <button id="start-cooking">Start Cooking</button>
+        <div class="progress">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="steps">
+            <div class="step">Preheat oven to 350°F (175°C).</div>
+            <div class="step">Mix sugar and butter together.</div>
+            <div class="step">Add eggs one at a time.</div>
+            <div class="step">Stir in flour and cocoa powder.</div>
+            <div class="step">Pour batter into a greased pan.</div>
+            <div class="step">Bake for 30 minutes.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
